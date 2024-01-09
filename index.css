@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(147, 193, 207);
+    width:auto;
+
+}
+h1{
+    border:1px solid red;
+    width: 100%;
+    background-color: rgb(134, 115, 115);
+    font-weight: bolder;
+    padding:20px;
+    text-align: center;
+    width: 100%;
+}
+#para-el{
+    color:rgb(43, 121, 121);
+    font-size: xx-large;
+    border:2px solid yellow;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 5px;
+    padding:5px;
+}
+#nav-bar{
+    
+    margin:30px;
+    float:right;
+
+}
+   
+#nav-bar ul li{
+    list-style-type: none;
+    padding:10px;
+     display: inline;
+     border: 2px solid red;
+     margin:5px;
+     background-color: rgb(99, 92, 92);
+     border-radius: 10px;
+
+}
+#nav-bar ul li a {
+    color:rgb(20, 18, 18);
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+}
+#form-el {
+    margin-top:5%;
+    display: none;
+    border:2px solid red;
+    width: fit-content;
+
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 2px;
+    margin-left: 85%;
+
+}
+#nav-bar ul  ul{
+    display:none;
+     position:absolute; 
+}
+#nav-bar ul  ul li{
+    display: block;
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-left: 140px;
+    border: 2px solid red;
+    /* float:right */
+}
+#nav-bar li:hover ul{
+    display: block;
+}
+#nav-bar ul  ul li aboutus-el{
+    background-color: blue;
+}
+#footer{
+    margin-left: 50%;
+    margin-top: 60%;
+    background-color: aqua;
+}
+#form-el3 {
+    margin-top:5%;
+    display: none;
+    border:2px solid red;
+    width: fit-content;
+
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 2px;
+    margin-left: 85%;
+}
+#lorry{
+    width:200px
+}
